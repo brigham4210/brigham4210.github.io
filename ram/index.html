@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAM Model of Brother Christ</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .slider-container {
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .stage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .slider {
+      width: 150px;
+      height: 20px;
+      transform: rotate(270deg);
+      margin: 0 -50px;     
+      margin-top: 80px;
+      background: #626BA9;
+    }
+  </style>
+</head>
+<body>
+  <h1>R.A.M</h1>
+  <h2>Relationship Attachment Model</h2>
+
+  <div class="slider-container">
+    <div class="stage">
+      <p>KNOW</p>
+      <input type="range" class="slider" value="50" >
+    </div>
+    <div class="stage">
+      <p>TRUST</p>
+      <input type="range" class="slider" value="40">
+    </div>
+    <div class="stage">
+      <p>RELY</p>
+      <input type="range" class="slider" value="30">
+    </div>
+    <div class="stage">
+      <p>COMMIT</p>
+      <input type="range" class="slider" value="20">
+    </div>
+    <div class="stage">
+      <p>TOUCH</p>
+      <input type="range" class="slider" value="10">
+    </div>
+  </div>
+
+</body>
+</html>
