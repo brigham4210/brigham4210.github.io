@@ -8,9 +8,17 @@ body {
     background-color: #f4f4f4;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
 h1 {
     text-align: center;
     color: #333;
+    margin: 5%;
 }
 
 #resume {
@@ -20,6 +28,12 @@ h1 {
     align-items: center;
     margin-top: 20px;
     width: 30%;
+    aspect-ratio: 2/3; /* width : height */
+}
+
+#head {
+    width: 30%;
+    height: auto;
 }
 
 .navbar {
