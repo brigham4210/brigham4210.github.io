@@ -1,9 +1,4 @@
 /* Modern CSS Reset and Variables */
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
     /* Color Palette */
@@ -74,12 +69,11 @@ body {
     align-items: center;
 }
 
-.section {
+section {
     padding: var(--spacing-20) var(--spacing-4);
     max-width: 1200px;
-    margin: 0 auto;
+    width: 90%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -97,16 +91,10 @@ h1 {
     color: #333;
 }
 
-h1::after {
-    content: '';
-    position: absolute;
-    bottom: -var(--spacing-4);
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--primary-blue), var(--secondary-purple));
-    border-radius: var(--radius-md);
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
 }
 
 #resume {
@@ -170,26 +158,11 @@ h1::after {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar a::after {
-    content: '';
-    position: absolute;
-    bottom: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background: linear-gradient(90deg, var(--primary-blue), var(--secondary-purple));
-    transition: width var(--transition-normal);
-}
 
 .navbar a:hover {
     background-color: var(--gray-50);
     color: var(--primary-blue);
     transform: translateY(-2px);
-}
-
-.navbar a:hover::after {
-    width: 80%;
 }
 
 .navbar a.active {
@@ -198,9 +171,6 @@ h1::after {
     box-shadow: var(--shadow-md);
 }
 
-.navbar a.active::after {
-    width: 0;
-}
 
 /* Enhanced Components */
 .hero {
@@ -347,8 +317,8 @@ h1::after {
 
 /* Skills Section */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: var(--spacing-8);
     margin-top: var(--spacing-12);
 }
@@ -376,7 +346,6 @@ h1::after {
 /* Contact Section */
 .contact-methods {
     display: flex;
-    flex-direction: column;
     gap: var(--spacing-4);
     margin-top: var(--spacing-8);
 }
