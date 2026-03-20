@@ -410,3 +410,18 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+/* Shared icon and layout helpers for index.html */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.asymmetric-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.tonal-shift-surface-container-low {
+    background-color: #f3f3f6;
+}
