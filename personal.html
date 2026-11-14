@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond Work · Brigham Chen</title>
+    <meta name="description" content="Beyond work: NBA breakdown videos and collectible card designs by Pai-Han Brigham Chen." />
+    <meta name="theme-color" content="#003ec7" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2" />
+    <link rel="icon" type="image/png" href="head.png?v=2" sizes="32x32" />
+    <link rel="apple-touch-icon" href="head.png?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
+    <link rel="stylesheet" href="theme.css?v=5" />
+  </head>
+  <body class="min-h-screen selection:bg-primary/20">
+    <!-- Brand icons, referenced below with <use> -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="i-github" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.7 7.7 0 0 1 8 4.8c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" /></symbol>
+      <symbol id="i-youtube" viewBox="0 0 16 16"><path fill="currentColor" d="M8.051 1.999h-.002C3.926 2 2 2.164 2 2.164A2 2 0 0 0 .58 3.58A20.3 20.3 0 0 0 0 8a20.3 20.3 0 0 0 .58 4.42 2 2 0 0 0 1.42 1.416S3.926 14 8.049 14H8.05c4.122 0 6.05-.164 6.05-.164a2 2 0 0 0 1.419-1.416A20.3 20.3 0 0 0 16 8a20.3 20.3 0 0 0-.581-4.42 2 2 0 0 0-1.419-1.416S12.172 2 8.05 2zM6.4 5.209 10.519 8 6.4 10.791z" /></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 16 16"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zM4.943 13.5V6.169H2.542V13.5zm-1.2-8.333c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.21 2.4 3.919c0 .694.521 1.248 1.327 1.248zm4.908 8.333V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634V13.5h2.401V9.25c0-2.273-1.211-3.33-2.827-3.33-1.304 0-1.885.717-2.211 1.22v-1.04H6.37c.03.644 0 7.331 0 7.331z" /></symbol>
+    </svg>
+
+    <nav id="site-nav" class="fixed top-0 w-full z-50 transition-all duration-300 py-6">
+      <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <a href="index.html" class="font-headline font-bold text-xl tracking-tight">Brigham Chen<span class="brand-dot"></span></a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-on-surface-variant">
+          <a href="index.html" class="nav-link hover:text-primary transition-colors">Home</a>
+          <a href="#youtube" class="nav-link hover:text-primary transition-colors">YouTube</a>
+          <a href="#cards" class="nav-link hover:text-primary transition-colors">Cards</a>
+          <a href="https://linkedin.com/in/brigham-chen-pai-han" target="_blank" rel="noreferrer" class="bg-primary text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-primary-container transition-all active:scale-95">
+            LinkedIn
+          </a>
+        </div>
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#cards">Cards</a>
+        <a href="https://linkedin.com/in/brigham-chen-pai-han" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+    </nav>
+
+    <main id="top">
+      <!-- Intro -->
+      <section class="hero pt-40 pb-20 px-6">
+        <div class="max-w-7xl mx-auto">
+          <a href="index.html" class="back-link"><i data-lucide="arrow-left" class="w-4 h-4"></i> Back to portfolio</a>
+          <p class="eyebrow">Beyond Work</p>
+          <h1 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+            Off the <span class="text-primary">clock.</span>
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-2xl leading-relaxed">
+            When I'm not testing software, I'm watching basketball — and making things about it.
+            Here's where I share NBA breakdowns on YouTube and the collectible cards I design.
+          </p>
+        </div>
+      </section>
+
+      <!-- YouTube -->
+      <section id="youtube" class="section-alt py-32">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="reveal flex flex-col md:flex-row justify-between md:items-end mb-16 gap-6">
+            <div>
+              <p class="eyebrow red">YouTube</p>
+              <h2 class="font-headline text-4xl font-bold">Basketball, broken down.</h2>
+              <p class="text-on-surface-variant mt-6 max-w-xl">
+                I break down NBA games, team trends, and player performance on YouTube —
+                clear, data-informed basketball insights from an amateur creator.
+              </p>
+            </div>
+            <a
+              href="https://www.youtube.com/@br1chen"
+              target="_blank"
+              rel="noreferrer"
+              class="flex items-center gap-2 bg-[#FF0000] text-white px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-all active:scale-95"
+            >
+              <svg class="w-5 h-5" aria-hidden="true"><use href="#i-youtube" /></svg>
+              Subscribe
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <a href="https://www.youtube.com/watch?v=-h6ToEW_Ykw&list=PLyMzLE14KM_BtKiI6LSpHFt78l9yfoD_A" target="_blank" rel="noreferrer" class="video-card reveal group cursor-pointer block">
+              <div class="thumb relative aspect-video rounded-2xl overflow-hidden mb-4 bg-slate-100">
+                <img src="https://i.ytimg.com/vi/-h6ToEW_Ykw/hqdefault.jpg" alt="友情讓灌籃高手成為現實，交易卻讓友情破碎" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" referrerpolicy="no-referrer" />
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-[#FF0000] opacity-0 group-hover:opacity-100 transition-opacity transform scale-90 group-hover:scale-100 duration-300">
+                    <i data-lucide="play" class="w-6 h-6 fill-current"></i>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 text-white text-[10px] font-bold px-2 py-1 rounded">12:45</span>
+              </div>
+              <h3 class="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">友情讓灌籃高手成為現實，交易卻讓友情破碎</h3>
+              <p class="text-sm text-on-surface-variant">Watch on YouTube</p>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=9XLPDu4envo&list=PLyMzLE14KM_BtKiI6LSpHFt78l9yfoD_A" target="_blank" rel="noreferrer" class="video-card reveal group cursor-pointer block">
+              <div class="thumb relative aspect-video rounded-2xl overflow-hidden mb-4 bg-slate-100">
+                <img src="https://i.ytimg.com/vi/9XLPDu4envo/hqdefault.jpg" alt="Turtle? Zebra? Cutie? NBA Nicknames in Chinese" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" referrerpolicy="no-referrer" />
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-[#FF0000] opacity-0 group-hover:opacity-100 transition-opacity transform scale-90 group-hover:scale-100 duration-300">
+                    <i data-lucide="play" class="w-6 h-6 fill-current"></i>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 text-white text-[10px] font-bold px-2 py-1 rounded">15:20</span>
+              </div>
+              <h3 class="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">Turtle? Zebra? Cutie? NBA Nicknames in Chinese</h3>
+              <p class="text-sm text-on-surface-variant">Watch on YouTube</p>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=vWd-HtkVmgA&list=PLyMzLE14KM_BtKiI6LSpHFt78l9yfoD_A" target="_blank" rel="noreferrer" class="video-card reveal group cursor-pointer block">
+              <div class="thumb relative aspect-video rounded-2xl overflow-hidden mb-4 bg-slate-100">
+                <img src="https://i.ytimg.com/vi/vWd-HtkVmgA/hqdefault.jpg" alt="Indiana Fever 印第安納狂熱隊有哪些美女？" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" referrerpolicy="no-referrer" />
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-[#FF0000] opacity-0 group-hover:opacity-100 transition-opacity transform scale-90 group-hover:scale-100 duration-300">
+                    <i data-lucide="play" class="w-6 h-6 fill-current"></i>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 text-white text-[10px] font-bold px-2 py-1 rounded">10:10</span>
+              </div>
+              <h3 class="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">Indiana Fever 印第安納狂熱隊有哪些美女？由印第安納居民告訴你</h3>
+              <p class="text-sm text-on-surface-variant">Watch on YouTube</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section id="cards" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+          <div class="cards-banner reveal flex flex-col md:flex-row justify-between items-center gap-12">
+            <div>
+              <p class="eyebrow light">Cards</p>
+              <h2 class="font-headline text-4xl font-bold mb-6">Collectibles for the greats.</h2>
+              <p class="max-w-xl text-lg mb-10">
+                I create cards that celebrate the greatest — collectible designs featuring athletes who inspire millions.
+              </p>
+              <a href="../Card/" class="btn-light">View Cards <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+            </div>
+            <div class="card-stack" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Back to portfolio -->
+      <section class="pb-32 px-6">
+        <a href="index.html" class="beyond-strip reveal max-w-7xl mx-auto">
+          <div>
+            <p class="eyebrow">Professional</p>
+            <p class="font-headline text-2xl font-bold">See my experience, projects, and skills.</p>
+          </div>
+          <span class="beyond-arrow" aria-hidden="true"><i data-lucide="arrow-right" class="w-5 h-5"></i></span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer py-12">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+        <div>
+          <p class="font-headline font-bold text-xl mb-2">Pai-Han Brigham Chen</p>
+          <p class="text-sm text-slate-400">© 2026 · Engineering with precision. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://linkedin.com/in/brigham-chen-pai-han" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="social-btn"><svg class="w-4 h-4" aria-hidden="true"><use href="#i-linkedin" /></svg></a>
+          <a href="https://github.com/brigham4210" target="_blank" rel="noreferrer" aria-label="GitHub" class="social-btn"><svg class="w-4 h-4" aria-hidden="true"><use href="#i-github" /></svg></a>
+          <a href="https://www.youtube.com/@br1chen" target="_blank" rel="noreferrer" aria-label="YouTube" class="social-btn"><svg class="w-4 h-4" aria-hidden="true"><use href="#i-youtube" /></svg></a>
+          <a href="#top" aria-label="Back to top" class="social-btn"><i data-lucide="arrow-up" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@0.542.0/dist/umd/lucide.min.js"></script>
+    <script src="script.js?v=4"></script>
+  </body>
+</html>
