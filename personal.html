@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="head.png?v=2" sizes="32x32" />
     <link rel="apple-touch-icon" href="head.png?v=2" />
     <link rel="stylesheet" href="styles.css?v=3" />
-    <link rel="stylesheet" href="theme.css?v=5" />
+    <link rel="stylesheet" href="theme.css?v=6" />
   </head>
   <body class="min-h-screen selection:bg-primary/20">
     <!-- Brand icons, referenced below with <use> -->
@@ -27,6 +27,7 @@
           <a href="index.html" class="nav-link hover:text-primary transition-colors">Home</a>
           <a href="#youtube" class="nav-link hover:text-primary transition-colors">YouTube</a>
           <a href="#cards" class="nav-link hover:text-primary transition-colors">Cards</a>
+          <a href="#garage" class="nav-link hover:text-primary transition-colors">Garage</a>
           <a href="https://linkedin.com/in/brigham-chen-pai-han" target="_blank" rel="noreferrer" class="bg-primary text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-primary-container transition-all active:scale-95">
             LinkedIn
           </a>
@@ -39,6 +40,7 @@
         <a href="index.html">Home</a>
         <a href="#youtube">YouTube</a>
         <a href="#cards">Cards</a>
+        <a href="#garage">Garage</a>
         <a href="https://linkedin.com/in/brigham-chen-pai-han" target="_blank" rel="noreferrer">LinkedIn ↗</a>
       </div>
     </nav>
@@ -54,7 +56,7 @@
           </h1>
           <p class="text-on-surface-variant text-lg max-w-2xl leading-relaxed">
             When I'm not testing software, I'm watching basketball — and making things about it.
-            Here's where I share NBA breakdowns on YouTube and the collectible cards I design.
+            Here's where I share NBA breakdowns on YouTube, the collectible cards I design, and the dream cars I build in 3D.
           </p>
         </div>
       </section>
@@ -142,6 +144,57 @@
             </div>
             <div class="card-stack" aria-hidden="true"><i></i><i></i><i></i></div>
           </div>
+        </div>
+      </section>
+
+      <!-- Dream Garage -->
+      <section id="garage" class="section-alt py-32 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="reveal">
+            <p class="eyebrow">Dream Garage</p>
+            <h2 class="font-headline text-4xl font-bold mb-6">Cars I'd love to own, built in 3D.</h2>
+            <p class="text-on-surface-variant text-lg leading-relaxed mb-6">
+              A showroom of my dream cars, hand-modelled from photos: a 1977 Leyland Mini 1000 and a lowered
+              1966 Chevrolet C10 stepside. Walk around them, zoom in, and open the doors, hood and tailgate,
+              right in the browser.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-10">
+              <span class="tag">three.js</span><span class="tag">WebGL</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="flex flex-wrap gap-4 items-center">
+              <a href="../Dream/Garage/" class="flex items-center gap-2 bg-on-surface text-surface px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-all active:scale-95">
+                Enter the garage <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+              <a href="https://github.com/brigham4210/Dream" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:underline">
+                <svg class="w-4 h-4" aria-hidden="true"><use href="#i-github" /></svg> Source code
+              </a>
+            </div>
+          </div>
+          <a href="../Dream/Garage/" class="garage-art reveal" aria-label="Open the Dream Garage">
+            <svg viewBox="0 0 320 180" aria-hidden="true">
+              <rect width="320" height="118" fill="#f4f4f2" />
+              <rect y="118" width="320" height="62" fill="#d9dad8" />
+              <path d="M0 118H320" stroke="#2a2b2d" stroke-width="1.5" />
+              <rect x="124" y="20" width="72" height="46" fill="#f3ead3" stroke="#1c1d1f" stroke-width="2.5" />
+              <path d="M131 52l11-9 10 6 13-10 11 7 12-5" stroke="#b3261e" stroke-width="1.8" fill="none" />
+              <path d="M131 58l18-4 18 3 22-6" stroke="#1d3f72" stroke-width="1.6" fill="none" />
+              <path d="M24 44l9-9 9 9-9 9z" fill="#f5b301" stroke="#111" stroke-width="1.2" />
+              <path d="M58 32h7l5 5v7l-5 5h-7l-5-5v-7z" fill="#b8141c" />
+              <g transform="translate(40 136)">
+                <path d="M0 0v-22q0-6 8-8l14-3 12-18q3-4 9-4h44q7 0 10 5l12 17 12 2q8 2 8 9v22z" fill="#9aa714" />
+                <path d="M84 -29l-7-17q-1-3-5-3H58v20z" fill="#1d1d1d" />
+                <circle cx="28" cy="0" r="12" fill="#1a1a1a" /><circle cx="104" cy="0" r="12" fill="#1a1a1a" />
+                <circle cx="28" cy="0" r="5" fill="#bbb" /><circle cx="104" cy="0" r="5" fill="#bbb" />
+              </g>
+              <g transform="translate(160 136)">
+                <path d="M0 -4v-24h52v-34q0-5 5-5h30q6 0 9 5l14 22 30 4q10 2 10 12v20z" fill="#c09a66" />
+                <path d="M60 -38v-22h24q4 0 6 4l10 18z" fill="#3a3f45" />
+                <circle cx="30" cy="0" r="13" fill="#1a1a1a" /><circle cx="122" cy="0" r="13" fill="#1a1a1a" />
+                <circle cx="30" cy="0" r="7" fill="#d8dadc" /><circle cx="122" cy="0" r="7" fill="#d8dadc" />
+              </g>
+              <ellipse cx="160" cy="152" rx="140" ry="6" fill="#000" opacity=".08" />
+            </svg>
+          </a>
         </div>
       </section>
 
