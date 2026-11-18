@@ -1,48 +1,59 @@
-# [Pai-Han Brigham Chen](https://brigham4210.github.io) 
+# Pai-Han Brigham Chen
 
+**SDET · Test Automation · Data**
+[Portfolio](https://brigham4210.github.io) · [LinkedIn](https://linkedin.com/in/brigham-chen-pai-han) · [GitHub](https://github.com/brigham4210)
 
+SDET at FamilySearch who tests cloud apps from the API layer up to the UI, and writes
+code when testing needs it. I use Claude Code to automate my own testing work, which took my output to ~10x more
+tickets per sprint. Computer Science graduate with a Data Science minor, so I
+check the data behind a feature as well as the feature. I also build and ship my own
+full-stack and Android apps.
 
-## WORK EXPERIENCE  
+## Experience
 
-### SDET | FamilySearch, Lehi UT  
-**01/2024 – Present**  
-- Integrate acceptance testing frameworks within a CI/CD pipeline to validate cloud-based applications
-- Conduct manual testing to validate that API endpoints meet functional and technical requirements
-- Perform integration testing and read logs in Splunk to identify and troubleshoot potential system errors
-- Execute UI testing using WebdriverIO to validate and ensure the functionality of web features
-- Built React components supporting efficient object migration across AWS S3 buckets
-- Write targeted SQL validation suites to verify post-deployment data changes
-- Debug build and runtime failures using GitHub Copilot and IDE tooling
-- Proficient in Agile development practices and team delivery workflows
-- Executed unit testing to ensure the reliability of application features, identifying potential errors and bugs for improved stability  
+### Software Development Engineer in Test (SDET) | FamilySearch, Lehi, UT
+**01/2024 – Present**
 
-### IT Business Analyst Lead | Brigham Young University - Idaho, Rexburg ID 
-**05/2022 - 12/2023**
+- Closed ~10x more tickets per sprint by building AI-assisted testing workflows with Claude Code
+- Cut the time to write a new test suite from ~2 days to ~half a day
+- Covered 100+ REST API endpoints with tests against functional and technical requirements, using Bruno
+- Built GitHub CI/CD workflows and scheduled Claude jobs that test Jira tickets, making ticket testing mostly automated
+- Run automated acceptance tests in the CI/CD pipeline, so cloud app changes are checked before release
+- Write WebdriverIO UI tests for user-facing web features
+- Find the cause of integration failures by tracing errors through Splunk logs
+- Write SQL checks that confirm data changes are correct after each deployment
+- Built React components for an internal tool that moves objects between AWS S3 buckets
+- Write unit tests that catch bugs early and keep features stable
+- Use Claude Code and GitHub Copilot to debug build and runtime failures
+- Work in Agile sprints with developers and product owners, from refinement to release
 
-- Analyzed and maintained data from Excel, created Power BI dashboards, and organized files in Microsoft SharePoint
-- Improved data quality workflows to ensure configuration and data accuracy
-- Used Python within Power BI for advanced data analysis, visualization customization, and data transformation tasks
-- Collaborate with managers in various departments in IT and assign tasks to team members
+### IT Business Analyst Lead | Brigham Young University–Idaho, Rexburg, ID
+**05/2022 – 12/2023**
 
-
-
-## Technical Skills  
-
-- **Programming Languages:** Python, Java, SQL, JavaScript, Kotlin, C#  
-- **Software Knowledge:** IntelliJ IDEA, GitHub, Android Studio, Bruno, Cloudberry Explorer 
-- **Programming Skills:** Object-oriented, Data Analysis, Unit Testing, Machine Learning 
-
-
+- Built Power BI dashboards from departmental Excel data, using Python inside Power BI for transforms and custom visuals
+- Improved data quality checks so configuration and reporting data stayed accurate
+- Led the team's day-to-day work: set priorities with IT managers across departments and assigned tasks
+- Organized team files and documentation in SharePoint
 
 ## Projects
-- Built a house price prediction model using Linear Regression
-- Built a road sign recognition system with Convolutional Neural Networks (CNNs),
-- Implemented a subscription prediction model using Decision Trees to identify customer groups and improve conversion rates.
-- Designed and executed a customer flow tracking pipeline in PySpark
 
+- **[Probation](https://brigham4210.github.io/#work)**: real-time multiplayer party game in the browser. Rooms sync over WebSockets, guests can play without an account, and players can rejoin after closing the tab. Game rules are covered by automated tests. *Python, Django, Django Channels, SQLite*
+- **[HobbyCards](https://brigham4210.github.io/hobbycards/privacy-policy.html)**: Android app for swapping contact cards by NFC tap or QR code, with all data kept on the phone. Tagged releases build a signed bundle and upload it to Google Play through GitHub Actions. *Kotlin, Jetpack Compose, ML Kit*
+- **[PriceGuesser](https://github.com/brigham4210/priceguesser)**: Flask game where players guess prices of live real estate listings, with filters and a fallback when filters return nothing. *Python, Flask, BeautifulSoup*
+- **[Naturalization Test](https://brigham4210.github.io/Quizzes/)**: study app for the U.S. citizenship civics test, with progress tracking and randomized review. *JavaScript*
+- **Machine learning coursework:** road sign recognition with a CNN, house price prediction with linear regression, a decision tree model that finds which customer groups are likely to subscribe, and a customer flow pipeline in PySpark
 
+## Skills
 
-## EDUCATION  
+- **Languages:** Python, Java, JavaScript, SQL, Kotlin, C#
+- **Testing:** WebdriverIO, API testing (Bruno), unit and integration testing, acceptance testing in CI/CD
+- **Cloud and tools:** AWS S3, Splunk, GitHub Actions, Git, IntelliJ IDEA, Android Studio, Cloudberry Explorer
+- **Frameworks:** React, Django, Flask, Jetpack Compose
+- **Data:** Power BI, PySpark, data analysis, machine learning
+- **AI tools:** Claude Code (scheduled agents, AI-assisted testing), GitHub Copilot
+- **Practices:** Agile, object-oriented design
 
-**BS in Computer Science minor Data Science**  
-Brigham Young University - Idaho, Rexburg ID  
+## Education
+
+**BS in Computer Science, Minor in Data Science**
+Brigham Young University–Idaho, Rexburg, ID
