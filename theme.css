@@ -214,9 +214,6 @@ html, body { overflow-x: clip; }
 .video-card:hover .thumb { box-shadow: var(--shadow-lift); transform: translateY(-4px); }
 
 /* ---------- Dream Garage ---------- */
-.garage-art { display: block; border-radius: 1.25rem; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.06); box-shadow: var(--shadow-soft); transition: box-shadow 0.3s ease, transform 0.3s ease; }
-.garage-art:hover { box-shadow: var(--shadow-lift); transform: translateY(-4px); }
-.garage-art svg { display: block; width: 100%; height: auto; }
 
 /* ---------- Cards banner ---------- */
 .cards-banner {
